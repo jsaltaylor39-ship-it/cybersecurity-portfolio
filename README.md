@@ -74,3 +74,86 @@ Cybersecurity enthusiast building expertise in:
 - Vulnerability management  
 
 My goal: To contribute to secure systems by combining hands-on technical skills with continuous learning.  
+
+
+- **SOC-Investigations/** – Security Operations Center incident reports and log analysis  
+- **Penetration-Testing/** – HackTheBox, TryHackMe labs, and writeups  
+- **Vulnerability-Scans/** – Nessus, OpenVAS, and lab scan reports  
+- **Cloud-Security-Labs/** – AWS, Azure, and GCP exercises and IAM setups  
+- **Tools-and-Scripts/** – Python, Bash, and automation scripts  
+- **docs/** – Screenshots, diagrams, and supplementary visuals  
+
+---
+
+## 🛡 SOC Investigations
+
+**3 Sample Reports:**  
+- [SOC-Investigation-Case01.md](SOC-Investigations/SOC-Investigation-Case01.md) – Phishing investigation and containment  
+- [SOC-Investigation-Case02.md](SOC-Investigations/SOC-Investigation-Case02.md) – Malware detection and mitigation  
+- [SOC-Investigation-Case03.md](SOC-Investigations/SOC-Investigation-Case03.md) – Unauthorized login attempts and response  
+
+Each report includes **objectives, methodology, findings, and recommendations**.
+
+---
+
+## 🎯 Penetration Testing
+
+**3 Sample Writeups:**  
+- [HTB-Machine01.md](Penetration-Testing/HTB-Machine01.md) – HackTheBox machine exploitation  
+- [HTB-Machine02.md](Penetration-Testing/HTB-Machine02.md) – Privilege escalation and misconfiguration lab  
+- [THM-Lab01.md](Penetration-Testing/THM-Lab01.md) – TryHackMe Intro Linux lab walkthrough  
+
+Each writeup contains **scope, methodology, findings, PoC screenshots, and conclusions**.
+
+---
+
+## ☁️ Cloud Security Labs
+
+**3 Sample Labs:**  
+- [AWS-IAM-Lab.md](Cloud-Security-Labs/AWS-IAM-Lab.md) – IAM users, roles, and MFA configuration  
+- [Azure-Sentinel-Lab.md](Cloud-Security-Labs/Azure-Sentinel-Lab.md) – Security monitoring and alerting  
+- [GCP-Firewall-Lab.md](Cloud-Security-Labs/GCP-Firewall-Lab.md) – Firewall and IAM role configurations  
+
+Labs include **objectives, setup, findings, and lessons learned**.
+
+---
+
+## 📊 Vulnerability Scans
+
+**3 Sample Reports:**  
+- [Nessus-Scan01.md](Vulnerability-Scans/Nessus-Scan01.md) – VM scan with critical vulnerabilities  
+- [OpenVAS-Lab01.md](Vulnerability-Scans/OpenVAS-Lab01.md) – Lab vulnerability assessment  
+- [THM-Scan01.md](Vulnerability-Scans/THM-Scan01.md) – TryHackMe scan report  
+
+Reports include **executive summary, findings, tables, and recommendations**.
+
+---
+
+## 🛠 Tools and Scripts
+
+- `PortScanner.py` – Python script for scanning open ports  
+- `LogParser.py` – Python tool for parsing SOC logs  
+
+---
+
+## 📄 Notes
+
+- All labs and reports are **conducted in controlled, safe lab environments**.  
+- Screenshots and diagrams are available in the `/docs/` folder.  
+- This portfolio highlights **practical application of cybersecurity principles**, demonstrating readiness for real-world scenarios.
+
+---
+
+## 📚 Courses & Certifications
+
+Some of the courses that contributed to this portfolio include:  
+
+- Coursera: *Introduction to IT and AWS Cloud, Data Analytics on AWS, Ethical Hacking, Cloud Security Principles*  
+- Google Technical Support & IT Fundamentals  
+- HackTheBox and TryHackMe practical labs  
+
+---
+
+## 📫 Contact
+
+For more information or inquiries, feel free to contact me: **your.email@example.com**
