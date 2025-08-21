@@ -2,7 +2,7 @@
 
 **Target:** HTB Machine “Lame”  
 **Date:** 2025-08-18  
-**Tester:** Your Name  
+**Tester:** Jessica Taylor 
 
 ---
 
