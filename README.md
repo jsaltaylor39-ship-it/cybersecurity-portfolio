@@ -85,7 +85,7 @@ My goal: To contribute to secure systems by combining hands-on technical skills 
 
 ---
 
-## 🛡 SOC Investigations
+##  SOC Investigations
 
 **3 Sample Reports:**  
 - [SOC-Investigation-Case01.md](SOC-Investigations/SOC-Investigation-Case01.md) – Phishing investigation and containment  
@@ -96,7 +96,7 @@ Each report includes **objectives, methodology, findings, and recommendations**.
 
 ---
 
-## 🎯 Penetration Testing
+##  Penetration Testing
 
 **3 Sample Writeups:**  
 - [HTB-Machine01.md](Penetration-Testing/HTB-Machine01.md) – HackTheBox machine exploitation  
@@ -107,7 +107,7 @@ Each writeup contains **scope, methodology, findings, PoC screenshots, and concl
 
 ---
 
-## ☁️ Cloud Security Labs
+##  Cloud Security Labs
 
 **3 Sample Labs:**  
 - [AWS-IAM-Lab.md](Cloud-Security-Labs/AWS-IAM-Lab.md) – IAM users, roles, and MFA configuration  
@@ -118,7 +118,7 @@ Labs include **objectives, setup, findings, and lessons learned**.
 
 ---
 
-## 📊 Vulnerability Scans
+##  Vulnerability Scans
 
 **3 Sample Reports:**  
 - [Nessus-Scan01.md](Vulnerability-Scans/Nessus-Scan01.md) – VM scan with critical vulnerabilities  
@@ -129,14 +129,14 @@ Reports include **executive summary, findings, tables, and recommendations**.
 
 ---
 
-## 🛠 Tools and Scripts
+##  Tools and Scripts
 
 - `PortScanner.py` – Python script for scanning open ports  
 - `LogParser.py` – Python tool for parsing SOC logs  
 
 ---
 
-## 📄 Notes
+##  Notes
 
 - All labs and reports are **conducted in controlled, safe lab environments**.  
 - Screenshots and diagrams are available in the `/docs/` folder.  
@@ -144,7 +144,7 @@ Reports include **executive summary, findings, tables, and recommendations**.
 
 ---
 
-## 📚 Courses & Certifications
+##  Courses & Certifications
 
 Some of the courses that contributed to this portfolio include:  
 
@@ -154,6 +154,6 @@ Some of the courses that contributed to this portfolio include:
 
 ---
 
-## 📫 Contact
+##  Contact
 
-For more information or inquiries, feel free to contact me: **your.email@example.com**
+For more information or inquiries, feel free to contact me: **jsaltaylor39@gmail.com**
