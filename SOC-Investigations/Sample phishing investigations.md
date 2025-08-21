@@ -1,4 +1,4 @@
-#  Phishing Investigation Report – Sample Case
+#  Phishing Investigation Report 
 
 **Platform**  
 Email / Windows Environment
