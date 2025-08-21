@@ -1,0 +1,40 @@
+# 🛡 SOC Investigation Report – Case 02
+
+**Case ID:** SOC-002  
+**Date:** 2025-08-18  
+**Analyst:** Your Name  
+
+---
+
+## 1. Executive Summary
+- **Incident type:** Malware detected on workstation  
+- **Affected system(s):** WS-Finance-03  
+- **Impact:** Temporary workstation downtime; no data loss  
+- **Status:** Resolved  
+
+---
+
+## 2. Investigation Details
+- **Detection source:** Endpoint antivirus alert  
+- **Timeline:**
+  - 09:00 AM: AV flagged Trojan.Generic  
+  - 09:05 AM: SOC isolated machine  
+  - 09:30 AM: Malware removed using endpoint tools  
+- **Logs reviewed:** Antivirus, Windows Event logs  
+- **Indicators of Compromise (IoCs):**
+  - File: `C:\Users\finance\Downloads\invoice.docx`  
+  - SHA256: `a3f5e2b8d9c3f5b1f9d8c1e2f3b4c5d6e7f8g9h0`  
+
+---
+
+## 3. Findings
+- Malware delivered via malicious download  
+- No network spread detected  
+- Endpoint defenses successfully contained threat  
+
+---
+
+## 4. Recommendations
+- Restrict download permissions for users  
+- Regular malware signature updates  
+- Conduct endpoint security awareness session
