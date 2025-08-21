@@ -1,4 +1,4 @@
-# 🎯 Penetration Test – HackTheBox Machine 02
+#  Penetration Test – HackTheBox Machine 02
 
 **Target:** HTB Machine “Lame”  
 **Date:** 2025-08-18  
