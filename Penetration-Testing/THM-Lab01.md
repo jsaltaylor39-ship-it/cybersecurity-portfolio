@@ -2,7 +2,7 @@
 
 **Target:** THM “Intro Linux” Lab  
 **Date:** 2025-08-15  
-**Tester:** Your Name  
+**Tester:** Jessica Taylor 
 
 ---
 
