@@ -1,1 +1,22 @@
 This shows my cloud security labs. 
+Platform: [AWS / Azure / GCP]  
+Lab: [Name]  
+Date: [MM/DD/YYYY]  
+
+1. Objectives
+- Configure IAM policies  
+- Enable monitoring and logging  
+- Test least privilege access  
+
+2. Setup
+- Services used: [EC2, S3, IAM, CloudTrail]  
+- Network/architecture diagram (insert screenshot from `/docs/`)  
+
+3. Findings
+- Misconfigurations identified  
+- Security controls applied  
+- Test results (e.g., blocked unauthorized access attempts)  
+
+4. Lessons Learned
+- Key takeaways from exercise  
+- How this applies to enterprise security  
