@@ -1,7 +1,7 @@
 # ☁️ Cloud Security Lab Report – [Lab Name]
 
 **Platform**  
-[AWS / Azure / GCP / Other]
+[AWS / Azure / GCP]
 
 **Lab**  
 [Name of Lab]
@@ -15,32 +15,34 @@
 ---
 
 ## 1. Objectives
-- **[Objective 1]**  
-- **[Objective 2]**  
-- **[Objective 3]**  
+- **Configure IAM users, groups, and policies**  
+- **Enable monitoring and logging**  
+- **Test least privilege access**  
 
 ---
 
 ## 2. Setup
-- **Services used:** [List all cloud services used]  
+- **Services used:** EC2, S3, IAM, CloudTrail (for AWS example)  
 - **Network/Architecture:**  
-  - [Describe the network setup, subnets, VMs, roles, etc.]  
-  - [Include any test instances or lab VMs]  
+  - Single VPC with public and private subnets  
+  - Test VM for validating access controls  
+  - IAM roles assigned to groups  
 - **Architecture Diagram:**  
 ![Architecture Diagram](../docs/[diagram-file-name].png)  
 
 ---
 
 ## 3. Findings
-- **[Finding 1]**  
-- **[Finding 2]**  
-- **[Finding 3]**  
-- **Test results:** [Describe any test results or blocked unauthorized attempts]  
+- **Misconfigurations identified:** Some IAM users had overly permissive policies granting access to all S3 buckets  
+- **Security controls applied:** Least privilege policies applied, removing excessive permissions  
+- **Access testing:** Attempted unauthorized access to restricted resources was blocked successfully  
+- **Logging and monitoring:** CloudTrail / Audit logs captured all access attempts and policy changes  
+- **Potential risk mitigated:** Unauthorized data access or accidental modification of critical resources  
 
 ---
 
 ## 4. Lessons Learned
-- **[Lesson 1]**  
-- **[Lesson 2]**  
-- **[Lesson 3]**  
-- **Application:** [How this applies to enterprise cloud security]  
+- **Least privilege enforcement** is critical to reduce risk of compromise  
+- **Logging and monitoring** are essential for detecting unauthorized access attempts  
+- **Periodic policy reviews** help maintain secure access over time  
+- **Hands-on practice** reinforces how cloud IAM, firewall, and logging controls work together in e
