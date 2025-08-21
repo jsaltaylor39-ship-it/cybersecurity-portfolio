@@ -1,5 +1,12 @@
 #  Cybersecurity Portfolio
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Linux](https://img.shields.io/badge/Linux-Kali%20%2F%20Ubuntu-orange?logo=linux&logoColor=white)](https://www.linux.org/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
+[![GCP](https://img.shields.io/badge/GCP-Cloud-red?logo=google-cloud&logoColor=white)](https://cloud.google.com/)
+[![Coursera](https://img.shields.io/badge/Coursera-Certificates-0C2D48?logo=coursera&logoColor=white)](https://www.coursera.org/)
+
 Hi! I'm **Jessica Taylor**, a cybersecurity enthusiast building expertise in SOC operations, penetration testing, vulnerability management, and cloud security (AWS, Azure, GCP). This repository showcases hands-on projects and labs demonstrating practical skills for real-world cybersecurity scenarios.
 
 ---
@@ -20,9 +27,9 @@ Hi! I'm **Jessica Taylor**, a cybersecurity enthusiast building expertise in SOC
 <details>
 <summary>3 Sample Reports</summary>
 
-- [SOC-Investigation-Case01.md](SOC-Investigations/SOC-Investigation-Case01.md) – Phishing investigation and containment  
-- [SOC-Investigation-Case02.md](SOC-Investigations/SOC-Investigation-Case02.md) – Malware detection and mitigation  
-- [SOC-Investigation-Case03.md](SOC-Investigations/SOC-Investigation-Case03.md) – Unauthorized login attempts and response  
+- Case 01 – Phishing investigation and containment  
+- Case 02 – Malware detection and mitigation  
+- Case 03 – Unauthorized login attempts and response  
 
 Each report includes **objectives, methodology, findings, and recommendations**.
 
@@ -35,9 +42,9 @@ Each report includes **objectives, methodology, findings, and recommendations**.
 <details>
 <summary>3 Sample Writeups</summary>
 
-- [HTB-Machine01.md](Penetration-Testing/HTB-Machine01.md) – HackTheBox machine exploitation  
-- [HTB-Machine02.md](Penetration-Testing/HTB-Machine02.md) – Privilege escalation and misconfiguration lab  
-- [THM-Lab01.md](Penetration-Testing/THM-Lab01.md) – TryHackMe Intro Linux lab walkthrough  
+- Machine 01 – HackTheBox machine exploitation  
+- Machine 02 – Privilege escalation and misconfiguration lab  
+- Lab 01 – TryHackMe Intro Linux lab walkthrough  
 
 Each writeup contains **scope, methodology, findings, PoC screenshots, and conclusions**.
 
@@ -50,9 +57,9 @@ Each writeup contains **scope, methodology, findings, PoC screenshots, and concl
 <details>
 <summary>3 Sample Labs</summary>
 
-- [AWS-IAM-Lab.md](Cloud-Security-Labs/AWS-IAM-Lab.md) – IAM users, roles, and MFA configuration  
-- [Azure-Sentinel-Lab.md](Cloud-Security-Labs/Azure-Sentinel-Lab.md) – Security monitoring and alerting  
-- [GCP-Firewall-Lab.md](Cloud-Security-Labs/GCP-Firewall-Lab.md) – Firewall and IAM role configurations  
+- AWS IAM Lab – IAM users, roles, and MFA configuration  
+- Azure Sentinel Lab – Security monitoring and alerting  
+- GCP Firewall Lab – Firewall and IAM role configurations  
 
 Labs include **objectives, setup, findings, and lessons learned**.
 
@@ -65,9 +72,9 @@ Labs include **objectives, setup, findings, and lessons learned**.
 <details>
 <summary>3 Sample Reports</summary>
 
-- [Nessus-Scan01.md](Vulnerability-Scans/Nessus-Scan01.md) – VM scan with critical vulnerabilities  
-- [OpenVAS-Lab01.md](Vulnerability-Scans/OpenVAS-Lab01.md) – Lab vulnerability assessment  
-- [THM-Scan01.md](Vulnerability-Scans/THM-Scan01.md) – TryHackMe scan report  
+- Nessus Scan 01 – VM scan with critical vulnerabilities  
+- OpenVAS Lab 01 – Lab vulnerability assessment  
+- THM Scan 01 – TryHackMe scan report  
 
 Reports include **executive summary, findings, tables, and recommendations**.
 
@@ -153,4 +160,3 @@ Cybersecurity enthusiast building expertise in:
 
 ## Contact
 For inquiries, feel free to reach me at: **jsaltaylor39@gmail.com**
-
