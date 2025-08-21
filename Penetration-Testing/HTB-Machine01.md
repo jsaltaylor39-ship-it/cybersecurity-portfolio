@@ -1,6 +1,6 @@
-#  Penetration Test – HackTheBox Machine 02
+#  Penetration Test – HackTheBox Machine 01
 
-**Target:** HTB Machine “Lame”  
+**Target:** HTB Machine “LM”  
 **Date:** 2025-08-18  
 **Tester:** Jessica Taylor 
 
@@ -23,7 +23,7 @@
 ## 3. Findings
 | Vulnerability | CVSS | Exploitation Method | Impact | Remediation |
 |---------------|------|------------------|--------|------------|
-| Anonymous FTP | 7.5 | Read/write access | Data exposure | Disable anonymous login |
+| Anonymous FTP | 7.3 | Read/write access | Data exposure | Disable anonymous login |
 | Weak file permissions | 6.8 | Privilege escalation | Local admin access | Harden permissions |
 
 ---
