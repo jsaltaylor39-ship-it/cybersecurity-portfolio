@@ -1,4 +1,4 @@
-# 🔒 Cybersecurity Portfolio
+#  Cybersecurity Portfolio
 
 Hi! I'm **Jessica Taylor**, a cybersecurity enthusiast building expertise in SOC operations, penetration testing, vulnerability management, and cloud security (AWS, Azure, GCP). This repository showcases hands-on projects and labs demonstrating practical skills for real-world cybersecurity scenarios.
 
