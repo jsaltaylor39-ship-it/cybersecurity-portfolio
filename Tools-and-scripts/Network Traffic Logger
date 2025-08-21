@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+"""
+NetworkTrafficLogger.py
+Author: Jessica Taylor
+Date: 08/21/2025
+
+Description:
+A Python script to capture and log network traffic (TCP packets) for analysis.
+Useful for lab exercises, intrusion detection practice, and network monitoring.
+"""
+
+import socket
+import argparse
+from datetime import datetime
+
+def capture_traffic(host="0.0.0.0", port=0):
+    """
+    Capture incoming TCP traffic on a specified host and port.
+    """
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind((host, port))
+        s.listen()
+        print(f"[*] Listening on {host}:{port}")
+        while True:
+            conn, addr = s.accept()
+            with conn:
+                print(f"[+] Connection from {addr}")
+                data = conn.recv(1024)
+                if data:
+                    log_entry = f"{datetime.now()} - {addr} - {data.decode(errors='ignore')}\n"
+                    with open("traffic_log.txt", "a") as f:
+                        f.write(log_entry)
+                    print(f"[LOGGED] {log_entry.strip()}")
+
+def main():
+    parser = argparse.ArgumentParser(description="Simple TCP network traffic logger")
+    parser.add_argument("--host", default="0.0.0.0", help="Host to bind (default: 0.0.0.0)")
+    parser.add_argument("--port", type=int, default=9999, help="Port to listen on (default: 9999)")
+    args = parser.parse_args()
+
+    try:
+        capture_traffic(args.host, args.port)
+    except KeyboardInterrupt:
+        print("\n[!] Exiting traffic logger")
+    except Exception as e:
+        print(f"[ERROR] {e}")
+
+if __name__ == "__main__":
+    main()
