@@ -2,7 +2,7 @@
 
 **Lab:** AWS Identity and Access Management (IAM)  
 **Date:** 2025-08-21  
-**Analyst:** Your Name  
+**Analyst:** Jessica Taylor  
 
 ---
 
