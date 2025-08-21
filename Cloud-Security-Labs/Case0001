@@ -1,16 +1,16 @@
 #  Cloud Security Lab Report – AWS IAM Lab
 
-**Platform:** AWS  
-**Lab:** Identity and Access Management (IAM) Lab  
-**Date:** 08/21/2025  
-**Analyst:** Jessica Taylor  
+**Platform:** **AWS**  
+**Lab:** **Identity and Access Management (IAM) Lab**  
+**Date:** **08/21/2025**  
+**Analyst:** **Jessica Taylor**
 
 ---
 
 ## 1. Objectives
-- Configure IAM users, groups, and policies  
-- Enable CloudTrail monitoring and logging  
-- Test least privilege access for all roles  
+- **Configure IAM users, groups, and policies**  
+- **Enable CloudTrail monitoring and logging**  
+- **Test least privilege access**  
 
 ---
 
@@ -20,21 +20,20 @@
   - Single VPC with public and private subnets  
   - EC2 instance for testing access controls  
   - IAM roles assigned to groups  
-- ![Architecture Diagram](../docs/aws-iam-architecture.png)  
+- **Architecture Diagram:** ![Architecture Diagram](../docs/aws-iam-architecture.png)  
 
 ---
 
 ## 3. Findings
-- Identified overly permissive IAM policies on some users  
-- Applied least privilege policies to restrict access to critical resources  
-- CloudTrail successfully logged all unauthorized access attempts  
-- EC2 instances enforced proper IAM role permissions  
+- **Misconfigurations identified:** overly permissive IAM policies  
+- **Security controls applied:** least privilege policies, role-based access  
+- **Test results:** CloudTrail successfully logged unauthorized access attempts; EC2 instances enforced proper IAM role permissions  
 
 ---
 
 ## 4. Lessons Learned
-- Implementing least privilege significantly reduces risk of accidental or malicious access  
-- Monitoring via CloudTrail is essential for incident detection  
-- Regular policy reviews help maintain a strong security posture  
-- Hands-on lab reinforced the importance of secure configuration in enterprise cloud environments  
+- **Least privilege reduces risk** of accidental or malicious access  
+- **Monitoring via CloudTrail** is essential for incident detection  
+- **Regular policy reviews** maintain strong security posture  
+- **Hands-on lab experience** reinforces secure cloud configuration best practices
 
