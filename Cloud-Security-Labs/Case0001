@@ -1,22 +1,40 @@
-This shows my cloud security labs. 
-Platform: [AWS / Azure / GCP]  
-Lab: [Name]  
-Date: [MM/DD/YYYY]  
+#  Cloud Security Lab Report – AWS IAM Lab
 
-1. Objectives
-- Configure IAM policies  
-- Enable monitoring and logging  
-- Test least privilege access  
+**Platform:** AWS  
+**Lab:** Identity and Access Management (IAM) Lab  
+**Date:** 08/21/2025  
+**Analyst:** Jessica Taylor  
 
-2. Setup
-- Services used: [EC2, S3, IAM, CloudTrail]  
-- Network/architecture diagram (insert screenshot from `/docs/`)  
+---
 
-3. Findings
-- Misconfigurations identified  
-- Security controls applied  
-- Test results (e.g., blocked unauthorized access attempts)  
+## 1. Objectives
+- Configure IAM users, groups, and policies  
+- Enable CloudTrail monitoring and logging  
+- Test least privilege access for all roles  
 
-4. Lessons Learned
-- Key takeaways from exercise  
-- How this applies to enterprise security  
+---
+
+## 2. Setup
+- **Services used:** EC2, S3, IAM, CloudTrail  
+- **Network/Architecture:**  
+  - Single VPC with public and private subnets  
+  - EC2 instance for testing access controls  
+  - IAM roles assigned to groups  
+- ![Architecture Diagram](../docs/aws-iam-architecture.png)  
+
+---
+
+## 3. Findings
+- Identified overly permissive IAM policies on some users  
+- Applied least privilege policies to restrict access to critical resources  
+- CloudTrail successfully logged all unauthorized access attempts  
+- EC2 instances enforced proper IAM role permissions  
+
+---
+
+## 4. Lessons Learned
+- Implementing least privilege significantly reduces risk of accidental or malicious access  
+- Monitoring via CloudTrail is essential for incident detection  
+- Regular policy reviews help maintain a strong security posture  
+- Hands-on lab reinforced the importance of secure configuration in enterprise cloud environments  
+
