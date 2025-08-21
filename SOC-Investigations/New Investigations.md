@@ -1,7 +1,7 @@
 This is my first SOC investigation report
 SOC Investigation Report
 
-Case ID: [Case Number]  
+Case ID: [JT001]  
 Date: [08/21/2025]  
 Analyst: [Jessica Taylor]  
 
