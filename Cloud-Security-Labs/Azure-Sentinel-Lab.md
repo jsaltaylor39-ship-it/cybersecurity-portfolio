@@ -2,7 +2,7 @@
 
 **Lab:** Azure Sentinel Security Monitoring  
 **Date:** 2025-08-18  
-**Analyst:** Your Name  
+**Analyst:** Jessica Taylor  
 
 ---
 
