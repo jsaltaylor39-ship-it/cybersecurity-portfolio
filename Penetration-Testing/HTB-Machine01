@@ -1,11 +1,37 @@
-HacktheBox
+# Penetration Test – HackTheBox Machine 01
 
-Objective / Scope
+**Target:** HTB Machine “Blue”  
+**Date:** 2025-08-20  
+**Tester:** Your Name  
 
-Tools used
+---
 
-Step-by-step methodology
+## 1. Scope
+- IP: 10.10.10.50  
+- Engagement: Lab only; no production systems  
 
-Findings / results
+---
 
-Recommendations / conclusions
+## 2. Methodology
+1. **Recon:** nmap scan (`nmap -sC -sV 10.10.10.50`)  
+2. **Enumeration:** SMB shares discovered  
+3. **Exploitation:** Used EternalBlue vulnerability  
+4. **Post-exploitation:** Gained SYSTEM privileges  
+
+---
+
+## 3. Findings
+| Vulnerability | CVSS | Exploitation Method | Impact | Remediation |
+|---------------|------|------------------|--------|------------|
+| SMBv1 EternalBlue | 9.8 | Metasploit module exploit | Full system compromise | Disable SMBv1, patch system |
+
+---
+
+## 4. Proof of Concept
+- Screenshot of shell access  
+- Output of `whoami` showing SYSTEM  
+
+---
+
+## 5. Conclusion
+- Lab demonstrated the importance of patch management and SMB hardening
