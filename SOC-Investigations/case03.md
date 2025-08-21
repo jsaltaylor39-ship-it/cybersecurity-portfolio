@@ -2,7 +2,7 @@
 
 **Case ID:** SOC-003  
 **Date:** 2025-08-15  
-**Analyst:** Your Name  
+**Analyst:** Jessica Taylor  
 
 ---
 
