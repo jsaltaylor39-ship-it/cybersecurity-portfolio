@@ -1,4 +1,4 @@
-#  Cloud Security Lab Report – [Lab Name]
+#  Cloud Security Lab Report – [Lab 0001]
 
 **Platform**  
 [AWS / Azure / GCP]
