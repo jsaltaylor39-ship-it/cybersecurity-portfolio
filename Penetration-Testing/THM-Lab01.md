@@ -1,4 +1,4 @@
-# 🎯 Penetration Test – TryHackMe Lab 01
+#  Penetration Test – TryHackMe Lab 01
 
 **Target:** THM “Intro Linux” Lab  
 **Date:** 2025-08-15  
