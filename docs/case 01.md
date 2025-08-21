@@ -1,4 +1,4 @@
-# 📚 Certifications & Courses Completed
+#  Certifications & Courses Completed
 
 This repository demonstrates hands-on experience and projects aligned with the following professional courses and training:
 
