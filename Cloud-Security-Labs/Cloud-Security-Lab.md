@@ -45,4 +45,4 @@
 - **Least privilege enforcement** is critical to reduce risk of compromise  
 - **Logging and monitoring** are essential for detecting unauthorized access attempts  
 - **Periodic policy reviews** help maintain secure access over time  
-- **Hands-on practice** reinforces how cloud IAM, firewall, and logging controls work together in e
+- **Hands-on practice** reinforces how cloud IAM, firewall, and logging controls work together 
